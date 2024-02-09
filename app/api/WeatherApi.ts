@@ -30,6 +30,6 @@ class WeatherApi extends ApiClass {
 }
 
 export const weatherApi = new WeatherApi(
-  "http://api.weatherapi.com/v1",
+  "https://api.weatherapi.com/v1",
   process.env.NEXT_PUBLIC_WEATHER_API_KEY as string,
 ); // TODO: Fix type so there is no casting needed
